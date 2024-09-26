@@ -52,6 +52,13 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+  From the data, we can see that the majority of the alive population were Female, with a ratio of 56:44. However, of the dead population, the majority were males, with a ratio of 36:64. 3% of the male population were dead while 1.4% of the female population were dead, showing that the male population more than doubled the female population of dead people. 
 
 ## Inferential results 
 
