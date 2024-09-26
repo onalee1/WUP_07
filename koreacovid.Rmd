@@ -72,3 +72,4 @@ fisher.test(table1)
 
 ## Conclusions
 
+  From the data and graphs shown, we can conclude that there is a correlation between sex and death. Males are more than twice as likely as Females to die, even though women are the majority of the population.
