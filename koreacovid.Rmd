@@ -62,8 +62,13 @@ colPerc(table1)
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+  The Null results expected that the percentage of dead males and females compared to alive males and females would be equal. However, the observed counts showed that men nearly doubled the percentage of female dead population. The odds ratio of females dying to males dying is 2:3, showing that men are more likely to die than females.
 
 ## Conclusions
 
